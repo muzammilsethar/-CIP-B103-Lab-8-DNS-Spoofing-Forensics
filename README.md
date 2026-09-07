@@ -1,6 +1,6 @@
 # 🌐 CIP-B103 Lab 8: DNS Spoofing Forensics
 
-<p>
+<p align="center">
   <a href="https://www.linkedin.com/in/muzammil-sethar/">
     <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
   </a>
@@ -25,16 +25,48 @@ This repository contains the official lab documentation, network captures (`pcap
 
 ---
 
-## Lab Objectives
-1. Capture clean baseline DNS resolution traffic for target domain `portal.icdfa.test`.
-2. Configure a local web server landing page on `192.168.238.137`.
-3. Execute controlled DNS spoofing simulation using Python (`scapy`).
-4. Perform forensic packet dissection using TShark and Wireshark to identify attack indicators.
-5. Restore workstation and network configurations to clean baseline state.
+## Lab Execution & Forensic Evidence
+
+### 1. Environment & Tools Verification
+Configured system environment, set up the required dependencies, and prepared local web assets.
+
+![Environment & Setup](b103%20lab8.1.png)
+
+![Dependencies Installation](b103%20lab8.2.png)
 
 ---
 
-## Evidence Summary & Cryptographic Hashes
+### 2. Baseline Network Capture Analysis
+Logged legitimate DNS requests to `portal.icdfa.test` and verified the original file integrity via SHA-256 digest.
+
+![Baseline Capture Verification](b103%20lab8.3.png)
+
+---
+
+### 3. DNS Spoofing Script & Pre-Attack Checks
+Checked current system IP forwarding, verified firewall configuration, and deployed the Scapy-based DNS injection script (`dns_spoof.py`).
+
+![Pre-Attack Checks & Python Injection Code](b103%20lab8.4.png)
+
+---
+
+### 4. Controlled Interception & Packet Extraction
+Captured modified network packets, dumped cryptographic hashes, and extracted network field structures using TShark.
+
+![Controlled Network Capture](b103%20lab8.5.png)
+
+![TShark Field Extraction](b103%20lab8.6.png)
+
+---
+
+### 5. System Restoration & Cleanup
+Terminated background attack scripts, reset IP forwarding rules, flushed ARP dynamic tables, and verified clean system state.
+
+![System Remediation & Cleanup](b103%20lab8.7.png)
+
+---
+
+## Cryptographic Hashes & Evidence Summary
 
 | Evidence File | File Description | SHA-256 Hash |
 | :--- | :--- | :--- |
