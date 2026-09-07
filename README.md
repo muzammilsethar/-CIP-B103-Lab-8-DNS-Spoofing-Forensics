@@ -1,13 +1,22 @@
 # 🌐 CIP-B103 Lab 8: DNS Spoofing Forensics
 
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/muzammil-sethar/) [![Email](https://img.shields.io/badge/EMAIL-CONTACT_ME-D14836?style=for-the-badge&logo=gmail)](mailto:Muzammilsethar@gmail.com)
-[![Status](https://img.shields.io/badge/STATUS-OPEN_FOR_OPPORTUNITIES_|_CTFS_|_BUG_BOUNTIES_|_COLLABORATIONS-44CC11?style=for-the-badge)]()
+<p>
+  <a href="https://www.linkedin.com/in/muzammil-sethar/">
+    <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="mailto:Muzammilsethar@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-CONTACT_ME-D14836?style=for-the-badge&logo=gmail" alt="Email">
+  </a>
+  <img src="https://img.shields.io/badge/STATUS-OPEN_FOR_OPPORTUNITIES_|_CTFS_|_BUG_BOUNTIES_|_COLLABORATIONS-44CC11?style=for-the-badge" alt="Status">
+</p>
 
-**Author:** Mohammad Muzamil
-**Registration No:** C11/26/DFIT/17289
-**Role:** Digital Forensics Internship Trainee (DFIT) | ICDFA
-**Platform:** Kali Linux (Rolling Release) | Wireshark | TShark | Scapy | Apache2
-**Availability:** Open for Opportunities, CTFs, Bug Bounties, Collaborations & Security Projects
+---
+
+**Author:** Mohammad Muzamil  
+**Registration No:** C11/26/DFIT/17289  
+**Role:** Digital Forensics Internship Trainee (DFIT) | ICDFA  
+**Platform:** Kali Linux | Wireshark | TShark | Scapy | Apache2  
+**Availability:** Open for Opportunities, CTFs, Bug Bounties & Security Projects  
 
 ---
 
